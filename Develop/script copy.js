@@ -53,6 +53,7 @@ passesNeeded = (passlength/typeofitems + passlength%typeofitems);
 for (i=0;i<passesNeeded;i++) {
 
 //choose uppercase letters
+console.log(upcase + " is upper");
 if (upcase==="yes") {
   function getRandomInt() {
   return Math.floor(Math.random() * choiceSets.upper.length);
